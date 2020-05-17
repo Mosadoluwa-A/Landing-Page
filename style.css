@@ -10,6 +10,41 @@
 	background-size: cover;
 }
 .navbar-brand{
-	font-family: lobster, sansita, algerian;
+	font-family: lobster;
 	font-size: 1.5rem;
+}
+.header-center{
+	margin-top: 8rem;
+}
+.header-text{
+	color: #800080;
+	font-family: sansita;
+	text-shadow: 1px 1px #fefefe;
+}
+.header-sub{
+	color: #ffef00; 
+}
+#about{
+	height: 90vh;
+	line-height: 1.6;
+}
+.titles{
+	color: #A9A9A9;
+	text-shadow: 1px 1px #000;
+	font-family: sansita;
+}
+.icons{
+	font-size: 6rem;
+	color: #ffcf00; 
+}
+.icons-text{
+	font-size: 1.5rem;
+	font-family: sansita;
+}
+.smaller-icon{
+	width: 6rem;
+}
+
+.icon-vertical{
+	margin-top: 5rem;
 }

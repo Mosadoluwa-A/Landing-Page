@@ -8,10 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-		<div id="home">
+		<section id="home">
 			<nav class="navbar navbar-expand-lg navbar-dark">
 				<a class="navbar-brand" href="#">Topaz</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navStuff">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navStuff">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navStuff">
@@ -34,14 +34,50 @@
 					</ul>
 				</div>
 			</nav>
-			<header  class="text-center mt-5">
-				<h1 align="center">TOPAZ Maintenance Services</h1>
-				<p align="center">The longetivity of your device is our concern</p>
+			<header  class="text-center header-center">
+				<h1 align="center" class="header-text">TOPAZ Maintenance Services</h1>
+				<p align="center" class="header-sub"><em>The longetivity of your device is our concern</em></p>
 				<button type="button" class="btn btn-outline-warning">Book Now!</button>
 			</header>
+		</section>
+		<div class="container">
+			<section id="about">
+				<div class="row">
+					<div class="col-sm-6 mt-5">
+						<h1 class="titles">About Us</h1>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, consequatur optio excepturi culpa accusantium ducimus adipisci, labore voluptatum est maiores earum placeat quis consectetur sunt quo aut qui! Omnis dolorum nisi adipisci, consequatur, explicabo corporis, maiores nulla aperiam asperiores sunt iure? Ea sequi illum tempora?</p>
+
+						<div class="row icon-vertical">
+							<div class="col-sm-4">
+								<span><i class="fas icons fa-bolt"></i> <p class="icons-text">Fast Services</p></span>
+							</div>
+							<div class="col-sm-4">
+								<span><img class="smaller-icon" src="Images/cogwheel.png"><p class="icons-text">99% Efficient!</p></span>
+							</div>
+							<div class="col-sm-4">
+								<span><img class="smaller-icon" src="Images/experience.png"><p class="icons-text">30<sup>+</sup>Experience</p></span>
+							</div>
+						</div>
+							<p class="text-center"><button class="btn btn-primary rounded-pill mt-5">View More</button></p>
+						
+					</div>
+					<div class="col-sm-6">
+						<img class="mt-3 rounded" src="Images/about2.png">	
+					</div>
+				</div>
+		</section>
 		</div>
 </body>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-<script src="bootstrap/js/jquery-3.4.1.min.js"></script>
-<script src="bootstrap/js/popper.min.js"></script>
+
+<!-- <footer>
+	Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+	Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+</footer> -->
+<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
+<!-- <script src="bootstrap/js/jquery-3.4.1.min.js"></script> -->
+<!-- <script src="bootstrap/js/popper.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </html>
