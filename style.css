@@ -33,6 +33,10 @@
 	line-height: 1.6;
 	background-color: #0a1f45;
 }
+#reviews{
+	height: 70vh;
+	line-height: 1.6;
+}
 .titles{
 	color: #A9A9A9;
 	text-shadow: 1px 1px #000;
@@ -48,6 +52,9 @@
 }
 .smaller-icon{
 	width: 6rem;
+}
+.smaller-user{
+	width: 3rem;
 }
 
 .icon-vertical{
@@ -66,5 +73,13 @@
 	/*font-family: Signika Negative;*/
 }
 .service-text:hover{
+	font-size: 2rem;
+}
+.big-quote{
+	font-size: 4rem;
+	font-family: Haas Grot Text R Web;
+	font-weight: bold;
+}
+.bigger-texts{
 	font-size: 2rem;
 }
