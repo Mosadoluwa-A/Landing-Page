@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 #home{
-	height: 90vh;
+	height: 30vh;
 	background-image: linear-gradient(to bottom, rgba(10, 10, 10, .3), rgba(10, 10, 10, .57)), url(images/bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -25,20 +25,20 @@
 	color: #ffef00; 
 }
 #about{
-	height: 90vh;
+	height: 60vh;
 	line-height: 1.6;
 }
 #services{
-	height: 90vh;
+	height: 40vh;
 	line-height: 1.6;
 	background-color: #0a1f45;
 }
 #reviews{
-	height: 70vh;
+	height: 40vh;
 	line-height: 1.6;
 }
 #contact{
-	height: 100vh;
+	height: 60vh;
 	line-height: 1.6;
 	background-color: #0a1f45;
 }
@@ -126,4 +126,23 @@
 	/*background-color: #edab1c;*/
 	padding: 1rem;
 	font-family: lobster;
+}
+
+@media (min-width: 992px){
+	#home{
+		height: 90vh;
+	}
+	#about{
+		height: 90vh;
+	}
+	#services{
+		height: 90vh;
+	}
+	#reviews{
+		height: 70vh;
+	}
+	#contact{
+		height: 100vh;
+	}
+
 }
