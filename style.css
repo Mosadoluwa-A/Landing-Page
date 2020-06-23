@@ -38,7 +38,7 @@
 	line-height: 1.6;
 }
 #contact{
-	height: 90vh;
+	height: 100vh;
 	line-height: 1.6;
 	background-color: #0a1f45;
 }
@@ -93,9 +93,37 @@
 .address{
 	color: white;
 	font-size: 1.5rem;
+	/*line-height: 2*/
 }
 
 .contact-title{
 	font-size: 2rem;
 	font-family: Sansita
+}
+#contact-form{
+	border: .2rem #edab1c solid;
+	border-radius: .5rem;
+	padding: 1.5rem;
+	/*background-color: #0a1f45;*/
+}
+.contact-us-title{
+	font-size: 2.5rem;
+	color: #A9A9A9;
+	text-shadow: 1px 1px #000;
+	font-family: sansita;
+}
+
+.form-text{
+	font-size: 1.5rem;
+	color: white;	
+}
+
+.checkbox-heading{
+	font-size: 1.7rem;
+	color: white;
+}
+.footer{
+	/*background-color: #edab1c;*/
+	padding: 1rem;
+	font-family: lobster;
 }

@@ -10,7 +10,7 @@
 <body>
 		<section id="home">
 			<nav class="navbar navbar-expand-lg navbar-dark">
-				<a class="navbar-brand" href="#">Topaz</a>
+				<a class="navbar-brand ml-5" href="#">Topaz Maintenance</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navStuff">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -95,7 +95,7 @@
 			</div>
 		</section>
 		<section id="reviews">
-			<h1 class="titles text-center">Reviews</h1>
+			<h1 class="titles text-center mt-3">Reviews</h1>
 			<p class="text-center big-quote">“</p>
 			<div class="container">
 				<div id="review-carousel" class="carousel slide" data-ride="carousel">
@@ -131,7 +131,7 @@
 			
 		</section>
 		<section id="contact">
-			<h1 class="titles text-center">Contact Us</h1>
+			<h1 class="titles text-center contact-us-title">Contact Us</h1>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 address mt-5">
@@ -142,8 +142,70 @@
 						<p>&phone; +2348092328758</p>
 					</div>
 					<div class="col-md-6">
-						<form>
-							
+						<form id="contact-form">
+							<div class="form-row">
+								<div class="col-12 text-center form-text mt-3">
+									<div class="form-check form-check-inline">
+										<input type="radio" name="gender" id="male" class="form-check-input" required="required">
+										<label for="male" class="form-check-label">Male</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input type="radio" name="gender" id="female" class="form-check-input" required="required">
+										<label for="female" class="form-check-label">Female</label>
+									</div>
+								</div>
+								<div class="col-12">
+									<input type="text" name="fullname" class="form-control pt-2" placeholder="Fullname" required="required">
+								</div>
+								<!-- <div class="col-12 text-center form-text mt-3">
+									<div class="form-check form-check-inline">
+										<input type="radio" name="gender" id="male" class="form-check-input" required="required">
+										<label for="male" class="form-check-label">Male</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input type="radio" name="gender" id="female" class="form-check-input" required="required">
+										<label for="female" class="form-check-label">Female</label>
+									</div>
+								</div> -->
+								<div class="col-6 mt-3">
+									<input type="number" name="phone" class="form-control" placeholder="Phone Number" required="required">
+								</div>
+								<div class="col-6 mt-3">
+									<input type="email" name="mail" class="form-control" placeholder="Email" required="required">
+								</div>
+								<div class="col-12">
+									<strong><p class="checkbox-heading text-center mt-3">Services that interest you</p></strong>
+								</div>
+								<div class="col-12 form-text">
+									<div class="form-check">
+										<input id="plumbing" type="checkbox" name="services" class="form-check-input mt-3">
+										<label for="plumbing" class="form-check-label">Plumbing</label>
+									</div>
+									<div class="form-check">
+										<input id="building" type="checkbox" name="services" class="form-check-input mt-3">
+										<label for="building" class="form-check-label">Building Projects</label>
+									</div>
+									<div class="form-check">
+										<input id="repair" type="checkbox" name="services" class="form-check-input mt-3">
+										<label for="repair" class="form-check-label">Repairs</label>
+									</div>
+									<div class="form-check">
+										<input id="electrical" type="checkbox" name="services" class="form-check-input mt-3">
+										<label for="electrical" class="form-check-label">Electrical Services</label>
+									</div>
+									<div class="form-check">
+										<input id="fabrication" type="checkbox" name="services" class="form-check-input mt-3">
+										<label for="fabrication">Device Fabrication</label>
+									</div>
+									<div class="form-check">
+										<input id="consultancy" type="checkbox" name="services" class="form-check-input mt-3 ">
+										<label for="consultancy">Consultancy</label>
+									</div>
+								</div>
+								<div class="col-12">
+									<p class="text-center"><button class="btn btn-success" type="submit">Submit</button></p>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
@@ -151,10 +213,11 @@
 		</section>
 </body>
 
-<!-- <footer>
-	Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-	Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-</footer> -->
+<footer class="footer">
+	<p class="text-center">&copy; Mosadoluwa Agbonyin 2020</p>
+	<p class="text-center">Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+	Icons made by <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+</footer>
 <!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
 <!-- <script src="bootstrap/js/jquery-3.4.1.min.js"></script> -->
 <!-- <script src="bootstrap/js/popper.min.js"></script> -->
