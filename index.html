@@ -9,8 +9,9 @@
 </head>
 <body>
 		<section id="home">
-			<nav class="navbar navbar-expand-lg navbar-dark">
-				<a class="navbar-brand ml-5" href="#">Topaz Maintenance</a>
+			<header id="header">
+			<nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand ml-5" href="#"> <img id="header-img" src="Images/topaz1.png" class="smaller-nav-image"> Topaz Maintenance</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navStuff">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -34,6 +35,7 @@
 					</ul>
 				</div>
 			</nav>
+			</header>
 			<header  class="text-center header-center">
 				<h1 align="center" class="header-text">TOPAZ Maintenance Services</h1>
 				<p align="center" class="header-sub"><em>The longetivity of your device is our concern</em></p>
@@ -98,6 +100,9 @@
 			<h1 class="titles text-center mt-3">Reviews</h1>
 			<p class="text-center big-quote">“</p>
 			<div class="container">
+				<div class="embed-responsive embed-responsive-21by9 text-center">
+					<iframe id="video" class="embed-responsive-item review-video" width="20" height="20" src="https://www.youtube.com/embed/_LX7jutanJM" allowfullscreen></iframe>
+				</div>
 				<div id="review-carousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -126,8 +131,8 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
+			
 			
 		</section>
 		<section id="contact">
@@ -142,7 +147,7 @@
 						<p>&phone; +2348092328758</p>
 					</div>
 					<div class="col-md-6">
-						<form id="contact-form">
+						<form id="form" action="https://www.freecodecamp.com/email-submit">
 							<div class="form-row">
 								<div class="col-12 text-center form-text mt-3">
 									<div class="form-check form-check-inline">
@@ -171,7 +176,7 @@
 									<input type="number" name="phone" class="form-control" placeholder="Phone Number" required="required">
 								</div>
 								<div class="col-6 mt-3">
-									<input type="email" name="mail" class="form-control" placeholder="Email" required="required">
+									<input id="email" type="email" name="mail" class="form-control" placeholder="Email" required="required">
 								</div>
 								<div class="col-12">
 									<strong><p class="checkbox-heading text-center mt-3">Services that interest you</p></strong>

@@ -34,7 +34,7 @@
 	background-color: #0a1f45;
 }
 #reviews{
-	height: 40vh;
+	height: 60vh;
 	line-height: 1.6;
 }
 #contact{
@@ -58,6 +58,9 @@
 }
 .smaller-icon{
 	width: 6rem;
+}
+.smaller-nav-image{
+	width: 3rem;
 }
 .smaller-user{
 	width: 3rem;
@@ -89,6 +92,11 @@
 .bigger-texts{
 	font-size: 2rem;
 }
+.review-video{
+	max-width: 760px;
+	width: 100%;
+	padding-left: 200px;
+}
 
 .address{
 	color: white;
@@ -100,7 +108,7 @@
 	font-size: 2rem;
 	font-family: Sansita
 }
-#contact-form{
+#form{
 	border: .2rem #edab1c solid;
 	border-radius: .5rem;
 	padding: 1.5rem;
@@ -139,7 +147,7 @@
 		height: 90vh;
 	}
 	#reviews{
-		height: 70vh;
+		height: auto;
 	}
 	#contact{
 		height: 100vh;
